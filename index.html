@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Signup</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Source+Code+Pro&display=swap" rel="stylesheet">
+<body>
+
+        <div id="container">
+
+            <header>
+                
+                            <h1 id="title">NET<span>FLIX</span>
+                            </h1>
+                
+                            <p d="description">Thank you for signing up to Netflix. Tell me more about yourself.</p>
+
+            </header>
+
+            <div id="survey_form_container">
+                <div id="survey_form">
+                <form action="./result.html" method="get" target="_blank">
+
+                    <div id="input_box">
+
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name">
+                        <br>
+
+                        <label for="age">Age</label>
+                        <input type="number" name="age" id="age" placeholder="Enter your age">
+                        <br>
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email">
+                        <br>
+
+                        <label for="content">Content Type</label>
+                        <br>
+
+                        <select name="content" id="content">
+                            <option value="movie">Movies</option>
+                             <option value="series">Series</option>
+                            <option value="documentaries">Documentaries</option>
+                            <option value="reality_shows">Reality Shows</option>
+                        </select>
+                        <br><br>
+
+                        <p>Movie Type</p>
+                        <br>
+                        
+                        <input type="checkbox" name="movie_type" id="checkbox_1" value="comedy">
+                        <label for="checkbox_1">Comedy</label>
+                        <br>
+
+                        <input type="checkbox" name="movie_type" id="checkbox_2" value="action">
+                        <label for="checkbox_2">Action</label>
+                        <br>
+
+                        <input type="checkbox" name="movie_type" id="checkbox_3" value="romance">
+                        <label for="checkbox_3">Romance</label>
+
+                    </div>
+
+                    <div id="input_box">
+
+                        <label for="gender">Gender</label>
+                        <br><br>
+
+                        <input type="radio" name="gender" id="radio_1" value="male">
+                        <label for="radio_1">Male</label>
+                        <br>
+                        
+                        <input type="radio" name="gender" id="radio_2" value="female">
+                        <label for="radio_2">Female</label>
+                        <br>
+
+                        <input type="radio" name="gender" id="radio_3" value="other">
+                        <label for="radio_3">Other</label>
+
+                    </div>
+                    <br>
+
+                    <div id="input_box">
+                        <label for="feedback">Feedback</label>
+                        <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Any comment"></textarea>
+                    </div>
+
+                    <div id="form_submit">
+                        <input type="submit" value="SEND" id="submit">
+                    </div>
+
+                </form>
+
+            </div>
+
+            </div>
+
+        </div>
+
+</body>
+</html>

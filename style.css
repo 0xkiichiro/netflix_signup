@@ -1,0 +1,101 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-image: url("./img/background_image.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#container {
+
+    max-width: 1240px;
+    height: 1036px;
+    
+    background: rgba(0,0,0,0.3);
+
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+header {
+    text-align: center;
+    left: 6.94%;
+    right: 6.94%;
+}
+
+#title {
+    font-size: 3.125rem;
+    font-family: 'Bowlby One SC';
+    letter-spacing: 0.31rem;
+}
+
+span {
+    color: red;
+}
+
+#description {
+    font-family: 'Sorts Mill Goudy';
+    font-style: oblique;
+    font-weight: 400;
+}
+
+#survey_form_container {
+    width: 500px;
+    max-height: 897px;
+    background: rgba(0,0,0,0.7);
+    margin: auto;
+    padding: 20px 40px;
+
+}
+
+#survey_form {
+    max-width: 460px;
+    margin: auto;
+
+}
+
+#input_box {
+    padding: 10px 40px;
+}
+
+#input_box input, option {
+    color: black;
+}
+
+#content{
+    color: black;
+    padding: 10px 40px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    color: black;
+}
+
+#form_submit {
+    width: 160px;
+    padding-top: 40px;
+    margin: auto;
+}
+
+#form_submit input{
+    background-color: red;
+    width: 160px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+}
+
+#name, #age, #email, #dropdown, #feedback {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
